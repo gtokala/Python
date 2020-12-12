@@ -25,7 +25,7 @@ steps:
     versionSpec: '$(python.version)'
   displayName: 'Use Python $(python.version)'
   
-- script: python /HelloWord.py
+- script: python HelloWord.py
 
 - script: |
     python -m pip install --upgrade pip
